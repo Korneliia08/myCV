@@ -1,0 +1,95 @@
+.wrapper header.container {
+    padding: 50px 0 0 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper header.container section.image {
+    width: 42%;
+    height: 500px;
+    background-color: rgb(255 255 255);
+    box-shadow: 0px 0px 4px 0px #b0067e;
+    position: relative;
+    top: 50px;
+}
+
+.wrapper header.container section.image img {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 4px;
+    bottom: 4px;
+}
+
+.wrapper header.container section.titleAndInformation {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    width: 58%;
+    position: relative;
+}
+
+.wrapper header.container section.titleAndInformation .title {
+    padding: 40px 40px 10px 40px;
+    box-sizing: border-box;
+    border-bottom: 5px solid #ffffffab;
+    position: relative;
+    right: 50px;
+    width: 79%;
+}
+
+
+.wrapper header.container section.titleAndInformation section.title h1, h2 {
+    margin: 0;
+    letter-spacing: 0.80px;
+    font-family: Merriweather;
+    text-align: center;
+    user-select: none;
+}
+
+.wrapper header.container section.titleAndInformation section.title h1 {
+    letter-spacing: 0.80px;
+    color: white;
+    text-shadow: 2px 2px 2px #85083f, 1px -1px 1px #e460fd;
+    font-size: 40px;
+}
+
+.wrapper header.container section.titleAndInformation section.title h2 {
+    letter-spacing: 0.80px;
+    color: white;
+    text-shadow: 2px 2px 4px #b74d5f, 2px -2px 2px #4d4f50;
+    font-size: 30px;
+}
+
+.wrapper header.container section.titleAndInformation section.information {
+    padding: 15px 40px 0 60px;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.wrapper header.container section.titleAndInformation section.information blockquote {
+    margin: 0;
+    letter-spacing: 0.20px;
+    font-family: Merriweather;
+    text-align: left;
+    user-select: none;
+    color: white;
+    line-height: 27px;
+    text-shadow: 2px 1px 2px #3d3d3d;
+}
+
+
+.wrapper header.container section.titleAndInformation hr {
+
+    border: 3px solid #ffc3ffc9;
+    height: 0;
+    width: 200px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90px);
+    clear: both;
+    margin: 0;
+    position: absolute;
+    right: 20px;
+    bottom: 100px;
+
+}

@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper.headerBackground {
+    background-color: rgb(160 63 124);
+}
+
+.wrapper.mainBackground {
+    background-color: rgb(255, 255, 255);
+}
+
+.wrapper .container {
+    width: 1200px;
+}
+
+
+
+
+.wrapper main {
+    padding: 70px 20px 0 20px;
+}
+
+.wrapper main.container.containerForSection {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media(max-width:1270px){
+    .wrapper main {
+        padding: 70px 20px 0 50px;
+    }
+    .wrapper .container {
+        width: 100%; box-sizing: border-box;
+    }
+}
+@media(max-width:500px){
+    .wrapper main {
+        padding: 70px 10px 0 10px;
+    }
+
+}
+
+
+
+
+@font-face {
+    font-family: Merriweather;
+    src: url(../assets/fonts/Merriweather/Merriweather-Regular.ttf);
+}

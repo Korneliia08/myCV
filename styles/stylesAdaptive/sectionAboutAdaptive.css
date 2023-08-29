@@ -1,0 +1,45 @@
+@media(max-width:1255px){
+    .wrapper main.container.containerForSection section.informationAboutMe {
+        width: 49%;
+    }
+    .wrapper main.container.containerForSection section.informationAboutMe section {
+        padding: 20px 0px 20px 20px;
+    }
+    .wrapper main.container.containerForSection section.informationAboutMe section h3 {
+        margin-bottom: 5px;
+        letter-spacing: 0.20px;
+        font-size: 25px;
+    }
+    
+    .wrapper main.container.containerForSection section.informationAboutMe section h3::before {
+        top: 2px;
+        width: 20px;
+        height: 20px;
+        left: -30px;
+    }
+    .wrapper main.container.containerForSection section.informationAboutMe section p {
+        font-size: 18px;
+    }
+    .wrapper main.container.containerForSection  {
+     
+        box-sizing: border-box;
+      
+      }
+}
+
+@media(max-width:700px){
+    .wrapper main.container.containerForSection section.informationAboutMe {
+        width: 100%;
+    }
+    .wrapper main.container.containerForSection  {
+      flex-direction: column;    
+      box-sizing: border-box;
+    
+    }
+    .wrapper main.container.containerForSection section.informationAboutMe section p {
+        font-size: 15px;
+    }
+    
+
+
+}

@@ -1,0 +1,96 @@
+@media(max-width:1190px){
+    .wrapper header.container {
+        width: 100%;
+    }
+    .wrapper header.container {
+        padding: 20px 0 0 150px;
+        display: flex;
+        flex-wrap: wrap;    
+    }
+    .wrapper header.container section.image {
+        width: 25%;
+        height: 300px;
+        top: 85px;
+    }
+    .wrapper header.container section.image img {
+        width: 300px;
+        height: 300px;
+    }
+    .wrapper header.container section.titleAndInformation {
+        width: 70%;
+    }
+
+    .wrapper header.container section.titleAndInformation .title {
+        padding: 50px 40px 10px 40px;
+    }
+
+    .wrapper header.container section.titleAndInformation section.title h1 {
+        letter-spacing: 0.70px;
+        font-size: 35px;
+    }
+    
+    .wrapper header.container section.titleAndInformation section.title h2 {
+        letter-spacing: 0.70px;
+        font-size: 25px;
+    }
+
+    .wrapper header.container section.titleAndInformation section.information blockquote {
+        margin-bottom: 20px;
+    }
+    .wrapper header.container section.titleAndInformation hr {
+        width: 100px;
+        bottom: 50px;
+    }
+}
+
+@media(max-width:1080px){
+
+
+    .wrapper header.container {
+     justify-content: center;
+     padding: 0px;
+
+    }
+    .wrapper header.container section.titleAndInformation {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .wrapper header.container section.image {
+        width: 300px;
+        top: 15px;
+    }
+    .wrapper header.container section.image img {
+   width: 300px;
+    }
+    .wrapper header.container section.titleAndInformation hr {
+        display: none;
+    }
+    .wrapper header.container section.titleAndInformation .title{
+        width: 100%;
+        padding: 50px 0 0 0;
+        position: static;
+    }
+    .wrapper header.container section.titleAndInformation section.title h2 {
+margin-bottom: 5px;
+    }
+    .wrapper header.container section.titleAndInformation section.information {
+        padding: 10px 0px 0 0px;
+        width: 90%;
+    }
+}
+@media(max-width:400px){
+    .wrapper header.container section.image {
+        width: 150px;
+        height: 150px;
+        top: 10px;
+    }
+    .wrapper header.container section.image img {
+   width: 150px;
+   height: 150px;
+    }
+    .wrapper header.container section.titleAndInformation section.information {
+        padding: 10px 0px 0 0px;
+        width: 90%;
+    }
+}
